@@ -1,0 +1,37 @@
+# 名稱
+name: Call API Daily
+
+# 觸發條件
+on:
+  schedule:
+    # 每天下午 4 點 (UTC+8)+8 抓取一次
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # 允許手動觸發
+
+# 執行工作
+jobs:
+  build:
+    # 使用 Ubuntu 最新版
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步驟 1：下載 GitHub repository 的內容
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+       # 步驟 2：呼叫 API 檔案存到 data.json
+      - name: Call API file
+        run: |
+          mkdir -p data
+          TIME=$(date +%Y%m%d_%H%M%S)
+          curl -o data/data_$TIME.json https://water.taiwanstat.com/data/data.json
+
+      # 步驟 3：檔案 commit & push
+      - name: Commit & Push file if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add data/*
+          git commit -m "Add new API data $TIME"
+          git push
