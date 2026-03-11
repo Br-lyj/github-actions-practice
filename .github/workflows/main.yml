@@ -4,8 +4,8 @@ name: Call API Daily
 # 觸發條件
 on:
   schedule:
-    # 每天下午 4 點半 (UTC+8)+8 抓取一次
-    - cron: '30 8 * * *'
+    # 每天下午 5 點整 (UTC+8)+9 抓取一次
+    - cron: '0 9 * * *'
   workflow_dispatch:  # 允許手動觸發
 
 # 執行工作
@@ -21,19 +21,26 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
 
-       # 步驟 2：呼叫 API 檔案存到 data.json
-      - name: Call API file
-        run: |
-          mkdir -p data
-          TIME=$(date -d '+8 hour' +%Y%m%d_%H%M%S)
-          curl -o data/data_$TIME.json https://water.taiwanstat.com/data/data.json
+      # 步驟 2：呼叫 API 檔案存到 data.json
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-      # 步驟 3：檔案 commit & push
-      - name: Commit & Push file if changed
+      # 步驟 3：下載 requests
+      - name: Install requests
+        run: pip install requests
+
+      # 步驟 4：執行 Python
+      - name: Run Python script
+        run: python app.py
+
+      # 步驟 5：更新資料
+      - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
           git add data/*
-          git commit -m "Add new API data $TIME"
+          git commit -m "Add new API data"
           git push
