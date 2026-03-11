@@ -4,8 +4,8 @@ name: Call API Daily
 # 觸發條件
 on:
   schedule:
-    # 每天下午 5 點整 (UTC+8)+9 抓取一次
-    - cron: '*/1 * * * *'
+    # 每天下午 5 點半 (UTC+8)+9 抓取一次
+    - cron: '30 9 * * *'
   workflow_dispatch:  # 允許手動觸發
 
 # 執行工作
