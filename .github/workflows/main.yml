@@ -4,7 +4,7 @@ name: Call API Daily
 # 觸發條件
 on:
   schedule:
-    # 每天下午 4 點 (UTC+8)+8 抓取一次
+    # 每天下午 4 點半 (UTC+8)+8 抓取一次
     - cron: '30 8 * * *'
   workflow_dispatch:  # 允許手動觸發
 
@@ -25,7 +25,7 @@ jobs:
       - name: Call API file
         run: |
           mkdir -p data
-          TIME=$(date +%Y%m%d_%H%M%S)
+          TIME=$(date -d '+8 hour' +%Y%m%d_%H%M%S)
           curl -o data/data_$TIME.json https://water.taiwanstat.com/data/data.json
 
       # 步驟 3：檔案 commit & push
