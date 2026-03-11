@@ -13,7 +13,6 @@ jobs:
   build:
     # 使用 Ubuntu 最新版
     runs-on: ubuntu-latest
-
     steps:
       # 步驟 1：下載 GitHub repository 的內容
       - name: Checkout repository
@@ -21,7 +20,7 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
 
-      # 步驟 2：呼叫 API 檔案存到 data.json
+      # 步驟 2：設定 Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
