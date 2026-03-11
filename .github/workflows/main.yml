@@ -18,6 +18,8 @@ jobs:
       # 步驟 1：下載 GitHub repository 的內容
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TOKEN }}
 
        # 步驟 2：呼叫 API 檔案存到 data.json
       - name: Call API file
