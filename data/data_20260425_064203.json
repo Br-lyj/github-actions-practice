@@ -1,0 +1,233 @@
+{
+    "牡丹水庫": {
+        "name": "牡丹水庫",
+        "daliyNetflow": 10.12,
+        "daliyInflow": "0.08",
+        "daliyOverflow": "10.20",
+        "percentage": 53.7,
+        "volumn": "1400.00",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir18",
+        "baseAvailable": "2603.66"
+    },
+    "石岡壩": {
+        "name": "石岡壩",
+        "daliyNetflow": -0.5999999999999943,
+        "daliyInflow": "190.40",
+        "daliyOverflow": "189.80",
+        "percentage": 24.0,
+        "volumn": "28.85",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir8",
+        "baseAvailable": "120.21"
+    },
+    "明德水庫": {
+        "name": "明德水庫",
+        "daliyNetflow": 7.44,
+        "daliyInflow": "0.00",
+        "daliyOverflow": "7.44",
+        "percentage": 85.8,
+        "volumn": "1066.51",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir5",
+        "baseAvailable": "1242.28"
+    },
+    "阿公店水庫": {
+        "name": "阿公店水庫",
+        "daliyNetflow": 0.0,
+        "daliyInflow": "0.00",
+        "daliyOverflow": "0.00",
+        "percentage": 15.5,
+        "volumn": "230.00",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir17",
+        "baseAvailable": "1480.05"
+    },
+    "永和山水庫": {
+        "name": "永和山水庫",
+        "daliyNetflow": -1.3999999999999986,
+        "daliyInflow": "18.70",
+        "daliyOverflow": "17.30",
+        "percentage": 58.3,
+        "volumn": "1747.27",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir3",
+        "baseAvailable": "2993.43"
+    },
+    "寶山水庫": {
+        "name": "寶山水庫",
+        "daliyNetflow": 0.0,
+        "daliyInflow": "6.47",
+        "daliyOverflow": "6.47",
+        "percentage": 59.1,
+        "volumn": "296.09",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir20",
+        "baseAvailable": "500.83"
+    },
+    "仁義潭水庫": {
+        "name": "仁義潭水庫",
+        "daliyNetflow": 4.17,
+        "daliyInflow": "0.41",
+        "daliyOverflow": "4.58",
+        "percentage": 25.6,
+        "volumn": "629.53",
+        "updateAt": "2026-04-24(7時)",
+        "id": "reservoir12",
+        "baseAvailable": "2459.19"
+    },
+    "新山水庫": {
+        "name": "新山水庫",
+        "daliyNetflow": -4.0,
+        "daliyInflow": "4.00",
+        "daliyOverflow": "0.00",
+        "percentage": 98.2,
+        "volumn": "978.83",
+        "updateAt": "2026-04-24(7時)",
+        "id": "reservoir0",
+        "baseAvailable": "995.96"
+    },
+    "白河水庫": {
+        "name": "白河水庫",
+        "daliyNetflow": 0.0,
+        "daliyInflow": "0.00",
+        "daliyOverflow": "0.00",
+        "percentage": 17.3,
+        "volumn": "249.00",
+        "updateAt": "2026-04-24(8時)",
+        "id": "reservoir13",
+        "baseAvailable": "1436.28"
+    },
+    "曾文水庫": {
+        "name": "曾文水庫",
+        "daliyNetflow": 255.0,
+        "daliyInflow": "6.20",
+        "daliyOverflow": "261.20",
+        "percentage": 15.5,
+        "volumn": "7573.00",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir14",
+        "baseAvailable": "48654.00"
+    },
+    "南化水庫": {
+        "name": "南化水庫",
+        "daliyNetflow": 35.6,
+        "daliyInflow": "0.00",
+        "daliyOverflow": "35.60",
+        "percentage": 37.9,
+        "volumn": "3234.90",
+        "updateAt": "2026-04-24(7時)",
+        "id": "reservoir16",
+        "baseAvailable": "8522.63"
+    },
+    "霧社水庫": {
+        "name": "霧社水庫",
+        "daliyNetflow": 19.880000000000003,
+        "daliyInflow": "46.04",
+        "daliyOverflow": "65.92",
+        "percentage": 73.3,
+        "volumn": "1887.35",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir10",
+        "baseAvailable": "2572.22"
+    },
+    "蘭潭水庫": {
+        "name": "蘭潭水庫",
+        "daliyNetflow": 4.18,
+        "daliyInflow": "0.00",
+        "daliyOverflow": "4.18",
+        "percentage": 27.5,
+        "volumn": "253.30",
+        "updateAt": "2026-04-24(7時)",
+        "id": "reservoir21",
+        "baseAvailable": "919.70"
+    },
+    "石門水庫": {
+        "name": "石門水庫",
+        "daliyNetflow": 162.95000000000002,
+        "daliyInflow": "124.65",
+        "daliyOverflow": "287.60",
+        "percentage": 67.4,
+        "volumn": "13840.85",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir2",
+        "baseAvailable": "20526.00"
+    },
+    "烏山頭水庫": {
+        "name": "烏山頭水庫",
+        "daliyNetflow": -170.0,
+        "daliyInflow": "237.60",
+        "daliyOverflow": "67.60",
+        "percentage": 57.5,
+        "volumn": "4541.00",
+        "updateAt": "2026-04-24(7時)",
+        "id": "reservoir15",
+        "baseAvailable": "7885.19"
+    },
+    "德基水庫": {
+        "name": "德基水庫",
+        "daliyNetflow": -16.14,
+        "daliyInflow": "75.78",
+        "daliyOverflow": "59.64",
+        "percentage": 72.4,
+        "volumn": "13350.85",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir7",
+        "baseAvailable": "18432.88"
+    },
+    "翡翠水庫": {
+        "name": "翡翠水庫",
+        "daliyNetflow": 115.97999999999999,
+        "daliyInflow": "83.53",
+        "daliyOverflow": "199.51",
+        "percentage": 89.8,
+        "volumn": "33256.57",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir1",
+        "baseAvailable": "36997.60"
+    },
+    "鯉魚潭水庫": {
+        "name": "鯉魚潭水庫",
+        "daliyNetflow": 13.699999999999996,
+        "daliyInflow": "54.52",
+        "daliyOverflow": "68.22",
+        "percentage": 46.1,
+        "volumn": "5323.96",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir6",
+        "baseAvailable": "11548.60"
+    },
+    "日月潭水庫": {
+        "name": "日月潭水庫",
+        "daliyNetflow": -70.25,
+        "daliyInflow": "126.58",
+        "daliyOverflow": "56.33",
+        "percentage": 62.0,
+        "volumn": "7966.04",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir9",
+        "baseAvailable": "12846.14"
+    },
+    "寶山第二水庫": {
+        "name": "寶山第二水庫",
+        "daliyNetflow": -12.639999999999997,
+        "daliyInflow": "32.15",
+        "daliyOverflow": "19.51",
+        "percentage": 67.2,
+        "volumn": "2276.07",
+        "updateAt": "2026-04-24(23時)",
+        "id": "reservoir4",
+        "baseAvailable": "3383.71"
+    },
+    "湖山水庫": {
+        "name": "湖山水庫",
+        "id": "reservoir19",
+        "daliyInflow": "0.17",
+        "daliyOverflow": "17.36",
+        "baseAvailable": "5041.00",
+        "daliyNetflow": 17.189999999999998,
+        "updateAt": "2026-04-24(23時)",
+        "volumn": "1522.75",
+        "percentage": 30.2
+    }
+}
